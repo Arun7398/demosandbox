@@ -1,4 +1,19 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  display: grid;
+  width: min-content;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.game-box {
+  height: 6rem;
+  width: 6rem;
+  border: 1px solid black;
+  font-size: 4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-box:hover {
+  background-color: rgba(0, 0, 0, 0.219);
 }
